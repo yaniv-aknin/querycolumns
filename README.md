@@ -1,5 +1,7 @@
 # querycolumn
 
+![Build Status](https://github.com/yaniv-aknin/querycolumns/actions/workflows/test.yml/badge.svg?branch=main)
+
 Simple extension to [Pandas](https://pandas.pydata.org/) that makes it easier to select columns in (very) [wide](https://en.wikipedia.org/wiki/Wide_and_narrow_data) DataFrames. If you name your columns in a hierarchical fashion with a separator (e.g, as you might get from `pd.normalize_json()`, it lets you select a column or group of columns easily and with tab completion.
 
 Here's a quick demo of what this looks like.
